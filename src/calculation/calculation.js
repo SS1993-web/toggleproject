@@ -27,12 +27,14 @@ function Calculation(){
        <label>First value</label>
        <input type="text" 
        value={result.a}
+       type="number" 
        placeholder="0"
        onChange={handleTextone}></input><br></br>
        <label>Second value</label>
        <input type="text" 
        value={result.b}
        placeholder="0"
+       type="number" 
        onChange={handleTexttwo}></input><br></br>
       
        <button onClick={buttonClickEventHandler} value={addition}>
@@ -45,7 +47,7 @@ function Calculation(){
        multiplication
        </button><br></br><br></br>
        <button onClick={() => setResult(0)}>Clear Count</button>
-       <h1>Result is :{result}</h1>
+       <h1 type="number" >Result is :{parseInt(result)}</h1>
        
         </div>
     );
