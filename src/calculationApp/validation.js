@@ -1,4 +1,5 @@
-function Validate(values) {
+import React from "react";
+function Validate(p) {
   let errors = {};
   if (!values.number) {
     errors.number = 'number is required';

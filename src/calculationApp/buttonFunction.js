@@ -1,5 +1,5 @@
 
-
+import React from "react";
 function ButtonFunction(btnvalue, result,){
     var a,b;
   if(btnvalue == 1){
