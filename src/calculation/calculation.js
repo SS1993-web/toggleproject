@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {addition, subtraction, multiplication,} from"./calculation.css"
+import {addition, subtraction, multiplication,} from "./calculation.js"
 
 
 function Calculation(){

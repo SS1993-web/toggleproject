@@ -17,4 +17,4 @@ var multiplication = function(a,b){
 
 
 
-export {addition,subtraction,multiplication,};
+export default {addition,subtraction,multiplication,};
